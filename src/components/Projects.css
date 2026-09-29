@@ -1,0 +1,81 @@
+.projects{
+    background:#020617;
+    color:white;
+    padding:100px 80px;
+}
+
+.project-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.project-title h4{
+    color:#38bdf8;
+    letter-spacing:2px;
+}
+
+.project-title h1{
+    font-size:45px;
+    margin-top:10px;
+}
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:18px;
+    transition:0.4s;
+    border:2px solid transparent;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    border-color:#38bdf8;
+}
+
+.project-card h2{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    color:#cbd5e1;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.tech{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:20px 0;
+}
+
+.tech span{
+    background:#0f172a;
+    padding:8px 14px;
+    border-radius:20px;
+    color:#38bdf8;
+    font-size:14px;
+}
+
+.project-card button{
+    background:#38bdf8;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.project-card button:hover{
+    background:white;
+    color:#0f172a;
+}
