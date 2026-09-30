@@ -12,58 +12,53 @@ function Education() {
 
       <div className="timeline">
 
+        {/* MCA */}
         <div className="timeline-item">
           <div className="circle"></div>
 
           <div className="content">
             <h2>Master of Computer Applications (MCA)</h2>
-            <h3>Pursuing</h3>
+            <h3>2025 – Present</h3>
             <p>
               Currently pursuing MCA with a focus on Web Development,
-              Frontend Development, React.js and Java.
+              Frontend Development, React.js, Java, and Spring Boot.
             </p>
           </div>
         </div>
 
+        {/* BCA */}
         <div className="timeline-item">
-  <div className="circle"></div>
+          <div className="circle"></div>
 
-  <div className="content">
-    <h2>Master of Computer Applications (MCA)</h2>
-    <h3>2025 – Present</h3>
-    <p>Currently Pursuing</p>
-  </div>
-</div>
+          <div className="content">
+            <h2>Bachelor of Computer Applications (BCA)</h2>
+            <h3>71%</h3>
+            <p>Completed</p>
+          </div>
+        </div>
 
-<div className="timeline-item">
-  <div className="circle"></div>
+        {/* HSC */}
+        <div className="timeline-item">
+          <div className="circle"></div>
 
-  <div className="content">
-    <h2>Bachelor of Computer Applications (BCA)</h2>
-    <h3>71%</h3>
-    <p>Completed</p>
-  </div>
-</div>
+          <div className="content">
+            <h2>Higher Secondary Certificate (HSC)</h2>
+            <h3>60%</h3>
+            <p>Completed</p>
+          </div>
+        </div>
 
-<div className="timeline-item">
-  <div className="circle"></div>
+        {/* SSC */}
+        <div className="timeline-item">
+          <div className="circle"></div>
 
-  <div className="content">
-    <h2>Higher Secondary Certificate (HSC)</h2>
-    <h3>60%</h3>
-    <p>Completed</p>
-  </div>
-</div>
+          <div className="content">
+            <h2>Secondary School Certificate (SSC)</h2>
+            <h3>81.20%</h3>
+            <p>Completed</p>
+          </div>
+        </div>
 
-<div className="timeline-item">
-  <div className="circle"></div>
-
-  <div className="content">
-    <h2>Secondary School Certificate (SSC)</h2>
-    <h3>81.20%</h3>
-    <p>Completed</p>
-  </div>
-</div>
       </div>
 
     </section>

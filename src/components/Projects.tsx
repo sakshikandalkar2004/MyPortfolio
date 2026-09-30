@@ -1,10 +1,31 @@
+
 import React from "react";
 import "./Projects.css";
 
 function Projects() {
+  const openMovieProject = () => {
+  window.open(
+    "https://github.com/sakshikandalkar2004/Online-Movie-Ticket-Booking-System",
+    "_blank"
+  );
+};
+
+  const openPortfolio = () => {
+    window.open(
+      "https://my-portfolio-eu6s.vercel.app/",
+      "_blank"
+    );
+  };
+
+  const openEcommerce = () => {
+    window.open(
+      "https://e-commerce-website-lnp38oqyx-sakshikandalkar2004.vercel.app/",
+      "_blank"
+    );
+  };
+
   return (
     <section className="projects" id="projects">
-
       <div className="project-title">
         <h4>MY WORK</h4>
         <h1>Featured Projects</h1>
@@ -12,28 +33,7 @@ function Projects() {
 
       <div className="project-container">
 
-        {/* Project 1 */}
-        <div className="project-card">
-          <h2>🌍 TourEase - Tourism Website</h2>
-
-          <p>
-            A responsive tourism website designed to help users explore travel
-            destinations, tour packages, and booking information with a modern
-            and attractive interface.
-          </p>
-
-          <h4>Tech Stack</h4>
-
-          <div className="tech">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-
-          <button>View Project</button>
-        </div>
-
-        {/* Project 2 */}
+        {/* Movie Project */}
         <div className="project-card">
           <h2>🎬 Online Movie Ticket Booking System</h2>
 
@@ -52,10 +52,12 @@ function Projects() {
             <span>MySQL</span>
           </div>
 
-          <button>View Project</button>
+          <button type="button" onClick={openMovieProject}>
+            View Project
+          </button>
         </div>
 
-        {/* Project 3 */}
+        {/* Portfolio Project */}
         <div className="project-card">
           <h2>💼 Personal Portfolio Website</h2>
 
@@ -73,13 +75,37 @@ function Projects() {
             <span>JavaScript</span>
           </div>
 
-          <button>View Project</button>
+          <button type="button" onClick={openPortfolio}>
+            View Project
+          </button>
+        </div>
+
+        {/* E-Commerce Project */}
+        <div className="project-card">
+          <h2>🛒 E-Commerce Website</h2>
+
+          <p>
+            A responsive e-commerce website where users can browse fashion
+            products, explore categories, and manage their shopping cart.
+          </p>
+
+          <h4>Tech Stack</h4>
+
+          <div className="tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <button type="button" onClick={openEcommerce}>
+            View Project
+          </button>
         </div>
 
       </div>
-
     </section>
   );
 }
 
 export default Projects;
+

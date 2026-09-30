@@ -15,9 +15,9 @@ function Hero() {
         </h2>
 
         <p>
-          Passionate MCA student with strong knowledge of Java, Spring Boot,
-          React.js, MySQL, HTML, CSS and JavaScript. I love creating modern,
-          responsive and user-friendly web applications.
+          Passionate MCA student with strong knowledge of HTML, CSS, JavaScript,
+          PHP, MySQL and Java. I love creating modern, responsive and
+          user-friendly web applications.
         </p>
 
         <div className="hero-btn">
